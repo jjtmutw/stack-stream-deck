@@ -2,18 +2,20 @@
   "schemaVersion": 1,
   "id": "flip_clock",
   "title": "翻頁時鐘",
-  "description": "從 windows_system_mqtt_publisher 擷取的全螢幕翻頁時鐘樣式，包含日期、六位數翻頁卡片、秒數動畫與自訂訊息。",
+  "description": "全螢幕時間與自訂訊息",
   "type": "flip-clock",
-  "source": "windows_system_mqtt_publisher/mobile_dashboard.html",
-  "grid": { "columns": 1, "rows": 1 },
-  "theme": { "accent": "#d1d1d1", "surface": "#202020" },
+  "source": "windows_system_mqtt_publisher",
+  "grid": {
+    "columns": 1,
+    "rows": 1
+  },
+  "theme": {
+    "accent": "#eab308",
+    "surface": "#09090b"
+  },
   "params": {
-    "layout": "fullscreen-flip-clock",
     "timezone": "Asia/Taipei",
-    "message": "歡迎參訪AIoT實驗室",
-    "showSeconds": true,
-    "showDate": true,
-    "animateChanges": true,
-    "hour12": false
+    "message": "Design by PJJ",
+    "showSeconds": true
   }
 }

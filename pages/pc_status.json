@@ -2,27 +2,21 @@
   "schemaVersion": 1,
   "id": "pc_status",
   "title": "PC 狀態顯示",
-  "description": "從 windows_system_mqtt_publisher 擷取的完整儀表板樣式，包含 CPU 儀表、溫度、記憶體、網路、磁碟與系統資訊。",
+  "description": "CPU、記憶體、網路與磁碟狀態",
   "type": "pc-status",
-  "source": "windows_system_mqtt_publisher/mobile_dashboard.html",
+  "source": "windows_system_mqtt_publisher",
   "grid": {
     "columns": 1,
     "rows": 1
   },
   "theme": {
-    "accent": "#ffb629",
-    "surface": "#050607"
+    "accent": "#f59e0b",
+    "surface": "#111111"
   },
   "params": {
     "statusTopic": "system/status",
     "computerName": "Preview Mode",
-    "layout": "system-core",
-    "showCpuGauge": true,
-    "showTemperature": true,
-    "showMemoryRings": true,
-    "showNetworkSparkline": true,
     "showDisk": true,
-    "showTelemetry": true,
-    "maxDisks": 4
+    "showNetwork": true
   }
 }
