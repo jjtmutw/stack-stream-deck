@@ -16,19 +16,19 @@
   "params": {
     "cities": [
       {
-        "name": "Taipei",
+        "name": "台北",
         "latitude": 25.033,
         "longitude": 121.565,
         "timezone": "Asia/Taipei"
       },
       {
-        "name": "Taichung",
+        "name": "台中",
         "latitude": 24.1477,
         "longitude": 120.6736,
         "timezone": "Asia/Taipei"
       },
       {
-        "name": "Kaohsiung",
+        "name": "高雄",
         "latitude": 22.6273,
         "longitude": 120.3014,
         "timezone": "Asia/Taipei"
