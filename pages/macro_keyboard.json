@@ -1,0 +1,304 @@
+{
+  "schemaVersion": 1,
+  "id": "macro_keyboard",
+  "title": "巨集鍵盤指令",
+  "description": "從 macro_pad_html 擷取的完整 3x8 巨集鍵盤頁，保留原始 slot 與快捷鍵指令。",
+  "type": "button-grid",
+  "source": "macro_pad_html",
+  "grid": {
+    "columns": 8,
+    "rows": 3
+  },
+  "theme": {
+    "accent": "#8b5cf6",
+    "surface": "#17122a"
+  },
+  "params": {
+    "pageHint": "完整 3x8 button-pad；原始頁面 20 顆巨集按鈕，可在 setup.html 修改快捷鍵。",
+    "originalButtonCount": 20,
+    "visibleSlots": "0-23"
+  },
+  "buttons": [
+    {
+      "id": "macro-copy",
+      "slot": 0,
+      "label": "複製",
+      "icon": "C",
+      "color": "#7c3aed",
+      "action": {
+        "type": "hotkey",
+        "keys": [
+          "ctrl",
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "macro-paste",
+      "slot": 1,
+      "label": "貼上",
+      "icon": "V",
+      "color": "#2563eb",
+      "action": {
+        "type": "hotkey",
+        "keys": [
+          "ctrl",
+          "v"
+        ]
+      }
+    },
+    {
+      "id": "macro-cut",
+      "slot": 2,
+      "label": "剪下",
+      "icon": "X",
+      "color": "#0f766e",
+      "action": {
+        "type": "hotkey",
+        "keys": [
+          "ctrl",
+          "x"
+        ]
+      }
+    },
+    {
+      "id": "macro-undo",
+      "slot": 3,
+      "label": "復原",
+      "icon": "Z",
+      "color": "#b45309",
+      "action": {
+        "type": "hotkey",
+        "keys": [
+          "ctrl",
+          "z"
+        ]
+      }
+    },
+    {
+      "id": "macro-redo",
+      "slot": 4,
+      "label": "重做",
+      "icon": "Y",
+      "color": "#7c3aed",
+      "action": {
+        "type": "hotkey",
+        "keys": [
+          "ctrl",
+          "y"
+        ]
+      }
+    },
+    {
+      "id": "macro-select-all",
+      "slot": 5,
+      "label": "全選",
+      "icon": "A",
+      "color": "#2563eb",
+      "action": {
+        "type": "hotkey",
+        "keys": [
+          "ctrl",
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "macro-save",
+      "slot": 6,
+      "label": "儲存檔案",
+      "icon": "S",
+      "color": "#0f766e",
+      "action": {
+        "type": "hotkey",
+        "keys": [
+          "ctrl",
+          "s"
+        ]
+      }
+    },
+    {
+      "id": "macro-next-tab",
+      "slot": 7,
+      "label": "下一分頁",
+      "icon": "Tab",
+      "color": "#b45309",
+      "action": {
+        "type": "hotkey",
+        "keys": [
+          "ctrl",
+          "tab"
+        ]
+      }
+    },
+    {
+      "id": "macro-close-tab",
+      "slot": 8,
+      "label": "關閉分頁",
+      "icon": "W",
+      "color": "#7c3aed",
+      "action": {
+        "type": "hotkey",
+        "keys": [
+          "ctrl",
+          "w"
+        ]
+      }
+    },
+    {
+      "id": "macro-refresh-f5",
+      "slot": 9,
+      "label": "重新整理",
+      "icon": "F5",
+      "color": "#2563eb",
+      "action": {
+        "type": "hotkey",
+        "keys": [
+          "f5"
+        ]
+      }
+    },
+    {
+      "id": "macro-refresh-ctrl-r",
+      "slot": 10,
+      "label": "重新整理 Ctrl+R",
+      "icon": "R",
+      "color": "#0f766e",
+      "action": {
+        "type": "hotkey",
+        "keys": [
+          "ctrl",
+          "r"
+        ]
+      }
+    },
+    {
+      "id": "macro-new-tab",
+      "slot": 11,
+      "label": "新增分頁",
+      "icon": "T",
+      "color": "#b45309",
+      "action": {
+        "type": "hotkey",
+        "keys": [
+          "ctrl",
+          "t"
+        ]
+      }
+    },
+    {
+      "id": "macro-incognito",
+      "slot": 12,
+      "label": "新增無痕視窗",
+      "icon": "N",
+      "color": "#7c3aed",
+      "action": {
+        "type": "hotkey",
+        "keys": [
+          "ctrl",
+          "shift",
+          "n"
+        ]
+      }
+    },
+    {
+      "id": "macro-save-as",
+      "slot": 13,
+      "label": "另存新檔",
+      "icon": "SS",
+      "color": "#2563eb",
+      "action": {
+        "type": "hotkey",
+        "keys": [
+          "ctrl",
+          "shift",
+          "s"
+        ]
+      }
+    },
+    {
+      "id": "macro-zoom-in",
+      "slot": 14,
+      "label": "放大視窗",
+      "icon": "+",
+      "color": "#0f766e",
+      "action": {
+        "type": "hotkey",
+        "keys": [
+          "ctrl",
+          "+"
+        ]
+      }
+    },
+    {
+      "id": "macro-zoom-out",
+      "slot": 15,
+      "label": "縮小視窗",
+      "icon": "-",
+      "color": "#b45309",
+      "action": {
+        "type": "hotkey",
+        "keys": [
+          "ctrl",
+          "-"
+        ]
+      }
+    },
+    {
+      "id": "macro-properties",
+      "slot": 16,
+      "label": "屬性視窗",
+      "icon": "Alt",
+      "color": "#7c3aed",
+      "action": {
+        "type": "hotkey",
+        "keys": [
+          "alt",
+          "enter"
+        ]
+      }
+    },
+    {
+      "id": "macro-insert-table",
+      "slot": 17,
+      "label": "插入表格",
+      "icon": "T",
+      "color": "#2563eb",
+      "action": {
+        "type": "hotkey",
+        "keys": [
+          "ctrl",
+          "t"
+        ]
+      }
+    },
+    {
+      "id": "macro-insert-chart",
+      "slot": 18,
+      "label": "插入圖表",
+      "icon": "F1",
+      "color": "#0f766e",
+      "action": {
+        "type": "hotkey",
+        "keys": [
+          "alt",
+          "f1"
+        ]
+      }
+    },
+    {
+      "id": "macro-close-window",
+      "slot": 19,
+      "label": "關閉視窗",
+      "icon": "F4",
+      "color": "#b91c1c",
+      "action": {
+        "type": "hotkey",
+        "keys": [
+          "alt",
+          "f4"
+        ]
+      }
+    }
+  ]
+}
