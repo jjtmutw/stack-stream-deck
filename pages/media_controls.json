@@ -29,9 +29,7 @@
       "label": "MP3 / MP4",
       "icon": "MP3",
       "color": "#111827",
-      "action": {
-        "type": "music_list"
-      }
+      "action": { "type": "music_list" }
     },
     {
       "id": "media-prev",
@@ -39,10 +37,7 @@
       "label": "上一首",
       "icon": "⏮️",
       "color": "#22c55e",
-      "action": {
-        "type": "media",
-        "command": "previous"
-      }
+      "action": { "type": "media", "command": "previous" }
     },
     {
       "id": "media-play",
@@ -50,10 +45,7 @@
       "label": "播放/暫停",
       "icon": "⏯️",
       "color": "#22c55e",
-      "action": {
-        "type": "media",
-        "command": "play_pause"
-      }
+      "action": { "type": "media", "command": "play_pause" }
     },
     {
       "id": "media-next",
@@ -61,10 +53,7 @@
       "label": "下一首",
       "icon": "⏭️",
       "color": "#22c55e",
-      "action": {
-        "type": "media",
-        "command": "next"
-      }
+      "action": { "type": "media", "command": "next" }
     },
     {
       "id": "volume-rotary",
