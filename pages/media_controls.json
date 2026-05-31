@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "id": "media_controls",
+  "title": "多媒體操控",
+  "description": "左側 MP3/MP4 檔案列表，右側播放控制、音量旋鈕與開關。",
+  "type": "button-grid",
+  "source": "macro_pad_html",
+  "grid": {
+    "columns": 8,
+    "rows": 3
+  },
+  "theme": {
+    "accent": "#22c55e",
+    "surface": "#102018"
+  },
+  "params": {
+    "mediaList": true,
+    "mp3Directory": "Music",
+    "mp4Directory": "Videos",
+    "listPanel": "left 4x3",
+    "controls": "previous/play_pause/next + rotary volume/mute"
+  },
+  "buttons": [
+    {
+      "id": "music-list",
+      "slot": 0,
+      "spanColumns": 4,
+      "spanRows": 3,
+      "label": "MP3 / MP4",
+      "icon": "MP3",
+      "color": "#111827",
+      "action": {
+        "type": "music_list"
+      }
+    },
+    {
+      "id": "media-prev",
+      "slot": 4,
+      "label": "上一首",
+      "icon": "⏮️",
+      "color": "#22c55e",
+      "action": {
+        "type": "media",
+        "command": "previous"
+      }
+    },
+    {
+      "id": "media-play",
+      "slot": 12,
+      "label": "播放/暫停",
+      "icon": "⏯️",
+      "color": "#22c55e",
+      "action": {
+        "type": "media",
+        "command": "play_pause"
+      }
+    },
+    {
+      "id": "media-next",
+      "slot": 20,
+      "label": "下一首",
+      "icon": "⏭️",
+      "color": "#22c55e",
+      "action": {
+        "type": "media",
+        "command": "next"
+      }
+    },
+    {
+      "id": "volume-rotary",
+      "slot": 5,
+      "spanColumns": 3,
+      "spanRows": 3,
+      "label": "音量旋鈕",
+      "icon": "🔊",
+      "color": "#14532d",
+      "value": 50,
+      "action": {
+        "type": "rotary",
+        "command": "volume",
+        "upCommand": "volume_up",
+        "downCommand": "volume_down",
+        "muteCommand": "mute",
+        "stepSize": 4
+      }
+    }
+  ]
+}
