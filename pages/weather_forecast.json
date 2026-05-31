@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "id": "weather_forecast",
+  "title": "天氣預報",
+  "description": "從 windows_system_mqtt_publisher 擷取的 Smart Weather 全螢幕儀表板樣式，包含城市切換、主天氣圖示、體感溫度、七日預報、降雨、風速、日期與時鐘。",
+  "type": "weather",
+  "source": "windows_system_mqtt_publisher/mobile_dashboard.html",
+  "grid": {
+    "columns": 1,
+    "rows": 1
+  },
+  "theme": {
+    "accent": "#21f4ff",
+    "surface": "#010714"
+  },
+  "params": {
+    "layout": "smart-weather",
+    "backgroundImage": "assets/smart-weather-taipei101.png",
+    "cities": [
+      {
+        "name": "台北",
+        "latitude": 25.033,
+        "longitude": 121.5654,
+        "timezone": "Asia/Taipei"
+      },
+      {
+        "name": "台中",
+        "latitude": 24.1477,
+        "longitude": 120.6736,
+        "timezone": "Asia/Taipei"
+      },
+      {
+        "name": "高雄",
+        "latitude": 22.6273,
+        "longitude": 120.3014,
+        "timezone": "Asia/Taipei"
+      }
+    ],
+    "rotationSeconds": 10,
+    "forecastDays": 7,
+    "language": "zh-TW",
+    "showTabs": true,
+    "showSideMetrics": true,
+    "showDateTime": true
+  }
+}
