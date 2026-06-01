@@ -35,5 +35,8 @@
       }
     ],
     "rotationSeconds": 12
+  },
+  "display": {
+    "orientation": "landscape"
   }
 }

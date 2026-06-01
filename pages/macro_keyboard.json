@@ -300,5 +300,8 @@
         ]
       }
     }
-  ]
+  ],
+  "display": {
+    "orientation": "landscape"
+  }
 }

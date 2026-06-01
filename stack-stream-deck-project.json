@@ -365,7 +365,10 @@
             "workingDirectory": ""
           }
         }
-      ]
+      ],
+      "display": {
+        "orientation": "landscape"
+      }
     },
     {
       "schemaVersion": 1,
@@ -453,7 +456,10 @@
             "stepSize": 4
           }
         }
-      ]
+      ],
+      "display": {
+        "orientation": "landscape"
+      }
     },
     {
       "schemaVersion": 1,
@@ -757,7 +763,10 @@
             ]
           }
         }
-      ]
+      ],
+      "display": {
+        "orientation": "landscape"
+      }
     },
     {
       "schemaVersion": 1,
@@ -779,6 +788,9 @@
         "computerName": "Preview Mode",
         "showDisk": true,
         "showNetwork": true
+      },
+      "display": {
+        "orientation": "landscape"
       }
     },
     {
@@ -818,6 +830,9 @@
           }
         ],
         "rotationSeconds": 12
+      },
+      "display": {
+        "orientation": "landscape"
       }
     },
     {
@@ -839,7 +854,13 @@
         "timezone": "Asia/Taipei",
         "message": "Design by PJJ",
         "showSeconds": true
+      },
+      "display": {
+        "orientation": "landscape"
       }
     }
-  ]
+  ],
+  "display": {
+    "orientation": "landscape"
+  }
 }

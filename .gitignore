@@ -3,3 +3,6 @@ __pycache__/
 .env
 .env.*
 .publish/
+python_libs/bin/
+python_libs/wheel/
+python_libs/wheel-*.dist-info/

@@ -18,5 +18,8 @@
     "computerName": "Preview Mode",
     "showDisk": true,
     "showNetwork": true
+  },
+  "display": {
+    "orientation": "landscape"
   }
 }

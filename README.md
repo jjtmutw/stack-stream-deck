@@ -48,3 +48,12 @@ jj/stack_stream_deck
 {baseTopic}/system/status
 ```
 
+## Python runtime 安裝
+
+第一次執行電腦端接收程式前，請先安裝必要套件：
+
+```powershell
+python -m pip install -r requirements.txt
+```
+
+其中 `pyautogui` 會用來執行快捷鍵與媒體控制；如果沒有安裝，runtime 仍會嘗試 Windows 原生 fallback，但建議所有使用者都安裝完整依賴。

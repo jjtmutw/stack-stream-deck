@@ -355,5 +355,8 @@
         "workingDirectory": ""
       }
     }
-  ]
+  ],
+  "display": {
+    "orientation": "landscape"
+  }
 }

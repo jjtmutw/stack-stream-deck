@@ -17,5 +17,8 @@
     "timezone": "Asia/Taipei",
     "message": "Design by PJJ",
     "showSeconds": true
+  },
+  "display": {
+    "orientation": "landscape"
   }
 }

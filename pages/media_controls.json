@@ -84,5 +84,8 @@
         "stepSize": 4
       }
     }
-  ]
+  ],
+  "display": {
+    "orientation": "landscape"
+  }
 }
